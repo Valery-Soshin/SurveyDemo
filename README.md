@@ -1,8 +1,11 @@
 Реализация простого WebApi для социальных опросов.
 
-ORM - Dapper
-DB - PostgreSQL
-Docker - docker compose
+Технологии:
+* C#
+* ASP.NET Core WebAPI
+* PostgreSQL
+* Dapper
+* Docker(docker-compose)
 
 Скрипт базы данных запускается автоматически при docker compose, то есть, когда контейнеры будут подняты, в базе данных уже будут таблицы и данные.
 
